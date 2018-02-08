@@ -1,0 +1,213 @@
+
+html, body {
+     height: 100%;
+     overflow-y: hidden
+}
+
+#main{
+  padding-top:50px;
+  background-color:black;
+  width:100%;
+  min-height: 100%;
+  display: inline-block;
+  overflow-y: hidden !important;
+}
+.row{
+  margin-left:0px;
+}
+
+#headerGap, #headerGap2{
+  background-color:#f0d38f;
+  height:10px;
+}
+
+#headerGap2{
+  height:25px;
+}
+
+#homeHeader{
+  margin-right:400px;
+}
+.tab{
+  margin-left:10px;
+}
+
+
+#portfolio{
+  width:1300px;
+  height:650px;
+  background-color:#fcd986;
+  margin-bottom:50px;
+  perspective:7000px;
+}
+
+#home{
+  background-color:#ffdead;
+  position:absolute;
+
+}
+
+.sheet{
+  width:1300px;
+  height:600px;
+  backface-visibility: hidden;
+  transition: .5s;
+}
+
+.flip{
+  transform-origin:bottom;
+  transform: rotateX(-90deg);
+}
+.flip2{
+  transform-origin:top;
+  transform: rotateX(-90deg);
+}
+
+.onTop{
+  position:absolute;
+}
+
+.hidden{
+  display:none;
+}
+
+#coverP{
+  font-size:90px;
+  margin-top:150px;
+  text-align:center;
+}
+
+
+#about{
+  background-color:#fff9ef;
+}
+#gallery{
+  background-color:#fff9ef;
+}
+#contact{
+  background-color:#fff9ef;
+}
+
+h1{
+  text-align:center;
+}
+
+#headers{
+  background-color:black;
+}
+
+.picRow{
+  margin-top:40px;
+  padding-left:40px;
+}
+
+.textBox{
+  background-color:#fff9ef;
+  width:310px;
+  padding-left:20px;
+  padding-right:30px;
+  padding-top:10px;
+  font-size:20px;
+  font-weight:bold;
+  vertical-align:center;
+}
+.one{
+  padding-top:60px;
+}
+.two{
+  padding-top:50px;
+}
+.three{
+  padding-top:80px;
+}
+
+.icon{
+  font-size:50px;
+  margin-left:10px;
+  color:green;
+}
+.icon:hover{
+  color:blue;
+}
+
+#contactInputField{
+  margin-top:50px;
+  box-shadow: 2px 2px 5px;
+  font-size:18px;
+  background-color:yellow;
+  width:400px;
+  height:400px;
+  margin-left:130px;
+  padding-left:20px;
+  padding-top:20px;
+  border-right:5px solid #cccc00;
+  border-bottom:5px solid #cccc00;
+  display:block;
+  transition: .5s;
+}
+
+.lineInput,.messageInput{
+  background-color:transparent;
+  border:none;
+  margin-bottom:20px;
+  width:300px;
+  border:1px solid #e6e600;
+}
+.messageInput{
+  margin-top:7px;
+  width:360px;
+}
+
+#contactTextBox{
+  margin-top:50px;
+  box-shadow: 2px 2px 5px;
+  background-color:#1cabe3;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:20px;
+  margin-left:200px;
+  width:400px;
+  height:400px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#endBar{
+  margin-top:60px;
+  text-align:right;
+  color:green;
+  padding-right:20px;
+}
+#author{
+  float:left;
+  margin-left:20px;
+  padding-top:20px;
+}
+
+#sendButton{
+  background-color:transparent;
+  border:1px solid #e6e600;
+  float:right;
+  margin-right:17px;
+}
+#sendButton:hover{
+  background-color:blue;
+  color:white;
+}
+
+#thanks{
+  margin-top:50px;
+  display:none;
+  font-size:40px;
+}
+
+#aboutTextBox{
+  width:60%;
+  margin-top:50px;
+}
+
+#aboutText{
+  margin-top:50px;
+  font-size:24px;
+  font-family:"Open Sans";
+}
