@@ -73,17 +73,8 @@ function flipLogic(i, end){
   }
   else currentPage = i;
 }
-/*
-$("#homeHeader").on("click", function(){
-  $("#home").toggleClass("flip");
-  setTimeout(function(){
-    flipHelper("folderCover", "about");
-  }, 600);
 
-})
-*/
-
-//translates
+//translates for page flipping
 function translator(word){
   switch(word){
     case "homeHeader":
@@ -123,7 +114,7 @@ $("#sendButton").on("click", function(){
 })
 
 
-
+// handles the wheel events
 function wheelHandler(evt){
   if(evt.deltaY >= 0 && currentPage!=3){
     flipHandler(currentPage+1);
@@ -131,9 +122,7 @@ function wheelHandler(evt){
   else if(evt.deltaY < 0 && currentPage!=0){
     flipHandler(currentPage-1);
   }
-
 }
-
 var port = document.getElementById("portfolio");
 port.addEventListener('wheel', wheelHandler, false);
 
